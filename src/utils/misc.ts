@@ -1,5 +1,7 @@
-//ORIGENS
+//PLAYERS
+export const players = ["Adauto", "Alves", "Dot", "Tobias"];
 
+//ORIGENS
 export const origens = [
   "Humano",
   "Aviário",

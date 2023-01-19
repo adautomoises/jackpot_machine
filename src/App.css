@@ -61,15 +61,21 @@
 }
 
 .logo {
-  width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
+
+  width: 100%;
+}
+
+.logo img {
+  height: 24px;
+  padding: 1rem;
 }
 
 .jackpot {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
 
   width: 100%;
@@ -93,15 +99,18 @@
   background-color: var(--brown);
 }
 
-.carousel {
-  overflow: hidden;
-  position: relative;
-  height: 200px;
+.leftMachine span,
+.middleMachine span,
+.rightMachine span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.rightMachine img,
-.middleMachine img {
-  width: 100px;
-  height: 100px;
+.leftMachine img,
+.middleMachine img,
+.rightMachine img {
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
